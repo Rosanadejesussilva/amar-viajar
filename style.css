@@ -1,0 +1,130 @@
+   
+    
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Lobster', cursive;
+   }
+
+   :root {
+        --verdeClaro:  #7AE582;
+        --verdeMedio: #25A18E;
+        --verdeSuave: #9FFFCB;
+        --azulCiano: #00A5CF;
+        --azulCopy: #004E64;
+   }
+ 
+   /* Paleta em uso 
+    https://coolors.co/palette/004e64-00a5cf-9fffcb-25a18e-7ae582
+   
+   */
+
+   nav{
+    background-color: #00A5CF;
+    padding: 20px;
+   }
+   
+   #busula{
+        width: 200px;
+        height:200px;
+        margin-left: 01vw;
+        margin-top: 01px;
+    
+    }
+    #mapa{
+        width: 80vw;
+        
+        height: 100vh;
+
+        margin-left: 10vw;
+    }
+
+    #faixa{
+        
+        background-color: rgb(119, 195, 132);
+    }
+    ul li {
+        display:inline ;
+
+      
+    }
+    
+    #menu-nav {
+        display: inline;
+
+    }
+
+    ul{
+        position: absolute;
+        margin-top: 10vh;
+        margin-left: 20%;
+        font-size: 1.5rem;
+    }
+
+    a{ 
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    a:hover{
+        color: blue;
+    }
+
+
+ 
+    #firstImgDestino{
+        width: 99vw;
+        height: 99vh;
+      
+    }
+
+    
+    body{
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--azulCiano);
+        
+    }
+
+    #destinoPagina{
+
+        background-color: #9C846C;
+        
+    }
+
+    #nextPage{
+        background-color: rgba(255, 255, 255, 0.023);
+        position: absolute;
+        height: 60px;
+        width: 300px;
+        color: var(--verdeClaro);
+        border: 2px solid var(--verdeSuave);
+        margin-left: 70vw;
+        margin-top: 40px;
+
+        font-size: 40px;
+    }
+
+    #nextPage:hover {
+        background-color: var(--verdeClaro);
+        color: white;
+        
+    }
+
+    .textoSobre{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #footerIndex{
+        padding: 6px;
+        background-color: var(--azulCiano);
+        height: 3vh;
+        font-size: 30px;
+        text-align: center;
+    }
